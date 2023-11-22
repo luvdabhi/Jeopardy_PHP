@@ -1,0 +1,101 @@
+body { 
+        display: flex;
+        background-position: center;
+        background-image: url('JeoImage.png');
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin:0;
+
+}
+table {
+        border-collapse: collapse;
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 290px;
+        text-align:center;
+}
+th, td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: center;
+        background-color: navy;
+        color: white;
+        font-size: 1.5em;
+}
+th {
+        background-color: navy;
+        color: gold;
+        font-size: 2.0em;
+}
+caption { 
+        caption-side: top;
+        color:white;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 3.0em;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: orange;
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-container {
+    color: #007bff; /* Change the text color to blue */
+    font-weight: bold; /* Make the text bold */
+    font-size: 200%; /* Double the font size */
+    padding: 10px 5%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+/* Styles for the user's score container */
+.user-score {
+    color: #007bff; /* Change the text color to blue */
+    font-weight: bold; /* Make the text bold */
+    font-size: 200%; /* Double the font size */
+    padding: 10px 5%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+/* Styles for the leaderboard container */
+.leaderboard-container {
+    color: #007bff; /* Change the text color to blue */
+    font-weight: bold; /* Make the text bold */
+    font-size: 200%; /* Double the font size */
+    padding: 10px 5%;
+    background-color: orange;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center it if it's the only element, adjust as necessary */
+}
+/* Styles for the log out button and home button */
+.logout-button, .home-button {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 10px 5%;
+    background-color: orange;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-button:hover, .home-button:hover {
+    background-color: orange;
+}
+
+.leaderboard-container:hover {
+    background-color: orange;
+}

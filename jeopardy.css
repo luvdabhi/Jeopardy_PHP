@@ -1,0 +1,129 @@
+    /* Adds the font the background, centering, and aligning items*/
+body { 
+    font-family: 'Arial', sans-serif;
+    background-image: url('jeopardy.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.navbar {
+    background-color: orange;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-container {
+    color: #007bff; 
+    font-weight: bold; 
+    font-size: 200%; 
+    padding: 10px 5%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.user-score {
+    color: #007bff; 
+    font-weight: bold;
+    font-size: 200%; 
+    padding: 10px 5%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.leaderboard-container {
+    color: #007bff; 
+    font-weight: bold; 
+    font-size: 200%; 
+    padding: 10px 5%;
+    background-color: orange;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.logout-button, .home-button {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 200%;
+    text-decoration: none;
+    padding: 10px 5%;
+    background-color: orange;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-button:hover, .home-button:hover {
+    background-color: orange;
+}
+
+.leaderboard-container:hover {
+    background-color: orange;
+}
+h1 {
+    color: goldenrod;
+    text-shadow: 2px 2px 4px #000;
+}
+#user {
+    background-color: navy;
+    color: goldenrod;
+    animation: fadeOut 5s forwards; 
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 5vh 0; 
+    margin-top: 20vh;
+    text-align: center;
+    height: 70%;
+}
+th {
+    background-color: navy;
+    color: white;
+    font-size: 2.5rem;
+    border: 1px solid #000;
+    padding: 10px 0;
+}
+td {
+    background-color: darkblue;
+    color: black;
+    font-size: 3.25rem;
+    padding: 20px 0;
+    border: 1px solid #000; 
+    transition: background-color 0.3s;
+}
+a {
+    color: goldenrod;
+    text-decoration: none;
+    display: block;
+    transition: transform 0.2s;
+}
+a:hover, a:focus {
+    background-color: #0000ff; 
+    transform: scale(1.05); 
+}
